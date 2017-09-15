@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">DaggerTest</string>
+    <string name="open_lib">Open Library Activity</string>
 </resources>

@@ -2,6 +2,8 @@ package com.vashisthg.daggertest.di
 
 import android.app.Application
 import com.vashisthg.daggertest.AppModule
+import com.vashisthg.library.LibraryModule
+import com.vashisthg.library.LibraryRepoModule
 import dagger.BindsInstance
 import dagger.Component
 import dagger.android.AndroidInjector
@@ -17,6 +19,7 @@ import javax.inject.Singleton
         AppModule::class,
         AppLevelModule::class,
         ActivityBindingModule::class,
+        LibraryModule::class,
         AndroidSupportInjectionModule::class)
 )
 interface AppComponent : AndroidInjector<DaggerApplication> {

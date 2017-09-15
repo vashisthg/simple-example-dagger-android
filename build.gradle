@@ -1,7 +1,6 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 
 project.ext {
-
     supportVersion = '26.1.0'
     daggerVersion = '2.11'
 }
